@@ -1,0 +1,187 @@
+/*    {        
+border-width:1px;    
+border-style:dotted;    
+border-color:#FF0000;    
+} */
+
+html{
+	background-color:#1F3C57;
+}
+
+body{
+	/*background-image:url('téléchargement.jpg');*/
+	width:1020px;
+	/*height:800px;*/
+    margin-left:150px;
+	margin-right:150px;
+}
+
+#entete{
+	width:1020px;
+	height:100px;
+	border-bottom-color:#FF0000;
+	border-bottom-style:solid;
+	border-style:solid 3px red;
+}
+
+#bandeaug{
+	width:500px;
+	height:800px;
+	margin-top:30px;
+	background-color:white;
+	border-style:solid 3px red;
+	float:left;
+}
+
+#bandeaud{
+	width:500px;
+	margin-top:30px;
+	height:800px;
+	background-color:white;
+	border-style:solid 3px red;
+	float:right;
+}
+
+#bandeau{
+	width:1020px;
+	margin-top:30px;
+	height:800px;
+	background-color:white;
+	border-style:solid 3px red;
+	overflow:auto;
+	
+}
+
+
+
+#connect{
+	width:300px;
+	height:300px;
+	border-color:red;
+	float:left;
+}
+
+.menu{
+	width:1020px;
+	height:80px;
+	margin-top:10px;
+	background-color:#631877;
+}
+
+
+ul li{
+	position:relative;
+    list-style-type: none;
+	float:left;
+    margin-left: 5px;
+	text-align:center;
+}
+
+ul li a {
+	text-decoration:none;
+	font-family:cursive;
+    display: block;
+	line-height:50px;
+    color: white;
+    width:100px;
+}
+
+ul li a:hover {
+    -webkit-transform:rotate(2deg);
+
+}
+
+ul ul {
+    position:absolute;
+	visibility:hidden;
+}
+ul ul li a{
+    clear:both;
+	width:auto;
+	display:block;
+	background-color:#631877;
+	width:180px;
+	height:30px;
+	text-align:left;
+	color:white;
+	border-top: 3px solid white;
+	
+}
+
+
+.menu ul li:hover ul {
+	visibility:visible;
+}
+
+.titre{
+	text-align:center;
+	color:red;
+	font-size:50px;
+	font-family:Times New Roman;
+	font-style:italic;
+	background-color:black;
+}
+
+input {
+	/*déjà en inline-block*/
+	width: 150px;
+	padding: 4px;
+	vertical-align: top;
+}
+
+
+
+label {
+	display: inline-block;
+	width: 100px;
+	margin-right: 20px;
+	vertical-align: top;
+	text-align: right;
+}
+
+
+.table1{
+	border:2px;
+	height:100px;
+	border-color:red;
+	color:#0131B4;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+
+.im1{
+	margin-left:20px;
+	
+}
+#desc{
+	width:500px;
+	height:300px;
+	border-color:red;
+	float:right;
+}
+
+p{
+	color:blue;
+	font-family:Times New Roman;
+	font-size:17px;
+}
+
+h1{
+	background-color:black;
+	text-align:center;
+	color:red;
+}
+
+h2{
+	background-color:#FF4000;
+	text-align:center;
+	color:black;
+	
+}
+
+ol{
+	color:blue;
+	
+}
